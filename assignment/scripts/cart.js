@@ -2,6 +2,38 @@ console.log('***** Cart Functions *****');
 // Make sure to test all functions here in the JS file!
 // We want to see how you are testing your code!!!
 
+// function to .push item to basket array
+
+let basket = [];
+const max = 100
+function addItem (nameofitem){ 
+    console.log(" in addItem", nameofitem); 
+    basket.push(nameofitem);
+    return true;
+  };
+  
+ 
+function listItems (list) {
+    console.log("items in array", list);
+    basket.indexOf();
+    return basket ;
+};
+  
+
+function empty(remove){
+    console.log("empty array", remove);
+    if (basket.length>=0) {
+        basket.pop();
+        return true;
+    } else { 
+       
+        
+    };
+    
+};
+
+
+
 
 
 
