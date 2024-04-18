@@ -20,12 +20,12 @@ function listItems (list) {
 };
   
 
-function empty(remove){
-    console.log("empty array", remove);
-    if (basket.length>=0) {
-        basket.pop();
-        return true;
-    } else { 
+function empty(){
+    console.log("empty array");
+    while (basket.length>0) {
+        basket.pop(-1);
+        return basket.length = 0 
+    
        
         
     };
