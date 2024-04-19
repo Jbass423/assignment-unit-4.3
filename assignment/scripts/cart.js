@@ -27,10 +27,29 @@ function empty(){
         return basket.length = 0 
     
        
-        
-    };
+     };
     
 };
+
+const maxItems = 5 
+console.log(maxItems);
+
+
+
+function isFull(params) {
+    if (basket.length<maxItems) {
+        return false 
+        
+     } else if (basket.length===maxItems){
+        return true 
+     }else {  
+        
+    }
+};
+
+
+
+
 
 
 
